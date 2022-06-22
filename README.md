@@ -12,7 +12,7 @@ Arduino library for Deneyap Relay
 
 | Address |  | 
 | :---      | :---     |
-| 0x1A | default address |
+| 0x0C | default address |
 | 0x0D | address when ADR1 pad is shorted |
 | 0x11 | address when ADR2 pad is shorted |
 | 0x12 | address when ADR1 and ADR2 pads are shorted |
@@ -20,7 +20,7 @@ Arduino library for Deneyap Relay
 ## :closed_book:Documentation
 Deneyap Relay 
 
-How to install a Arduino Library -
+[How to install a Arduino Library](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
 
 ## :pushpin:Deneyap Relay
 This Arduino library allows you to use Deneyap Relay with I2C peripheral. You can use this library in your projects with any Arduino compatible board with I2C peripheral.
@@ -33,8 +33,9 @@ This Arduino library allows you to use Deneyap Relay with I2C peripheral. You ca
 - `library.properties ` General library properties for the Arduino package manager
 
 ## Version History
-
 1.0.0 - initial release
+
+1.0.1 - update library.properties file
 
 ## :rocket:Hardware Connections
 - Deneyap Relay and Board can be connected with I2C cable

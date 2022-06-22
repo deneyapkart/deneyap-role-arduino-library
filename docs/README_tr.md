@@ -11,7 +11,7 @@ Deneyap Röle için Arduino kütüphanesidir.
 
 | Adress |  | 
 | :---      | :---     |
-| 0x1A | varsayılan adres |
+| 0x0C | varsayılan adres |
 | 0x0D | ADR1 kısa devre yapıldığındaki adres |
 | 0x11 | ADR2 kısa devre yapıldığındaki adres |
 | 0x12 | ADR1 ve ADR2 kısa devre yapıldığındaki adres |
@@ -19,7 +19,7 @@ Deneyap Röle için Arduino kütüphanesidir.
 ## :closed_book:Dokümanlar
 Deneyap Röle
 
-Arduino Kütüphanesi Nasıl İndirilir
+[Arduino Kütüphanesi Nasıl İndirilir](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
 
 ## :pushpin:Deneyap Röle
 Bu Arduino kütüphanesi Deneyap Rölenin I2C çevre birimi ile kullanılmasını sağlar. Arduino ile uyumlu, I2C çevre birimine sahip herhangi bir geliştirme kartı ile bu kütüphaneyi projelerinizde kullanabilirsiniz.
@@ -33,6 +33,8 @@ Bu Arduino kütüphanesi Deneyap Rölenin I2C çevre birimi ile kullanılmasın�
 
 ## Sürüm Geçmişi
 1.0.0 - ilk sürüm
+
+1.0.1 - library.properties dosyasının güncellenmesi
 
 ## :rocket:Donanım Bağlantıları
 - Deneyap Röle ile kullanılan geliştirme kartı I2C kablosu ile bağlanabilir
